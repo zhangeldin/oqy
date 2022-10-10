@@ -1,40 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+    display: block;
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-.wrapper {
+
+.main {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 .h1 {
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 0;
     padding: 0 20px;
 }
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
-article {
-    max-width: 800px;
-    margin: 40px auto;
+.img {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 100%;
+}
+.imgqr {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+.content {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 20px;
 }
 h2 {
-    font-size: 30px;
-    text-align: center;
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 25px;
 }
 a {
     text-decoration: none;
-    color: #0086dd;
+    color: #0066cc;
 }
 a:hover {
     text-decoration: underline;
 }
-a.red {
-    color: red;
+.h2s {
+    text-align: center;
+    font-size: 35px;
 }
